@@ -1,0 +1,3 @@
+@use "ag-grid-community/styles" as ag;
+@include ag.grid-styles();
+@include ag.grid-styles((theme: balham, --ag-balham-active-color: deeppink));
